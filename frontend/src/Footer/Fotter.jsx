@@ -40,9 +40,7 @@ function Footer() {
             >
               Work
             </a>
-            <a className="font-light text-sm md:text-base text-white hover:text-gray-400 transition-colors duration-300 cursor-pointer">
-              Services
-            </a>
+          
             <a
               href="#Contact"
               className="font-light text-sm md:text-base text-white hover:text-gray-400 transition-colors duration-300"
@@ -51,11 +49,6 @@ function Footer() {
             </a>
           </div>
 
-          {/* Column 2: Privacy Policy, Sitemap */}
-          {/* <div className="flex flex-col space-y-1 mb-8 md:mb-0 md:mr-auto md:ml-20"> Added margin for spacing */}
-          {/* <p className="font-light text-sm md:text-base">Privacy Policy</p> */}
-          {/* <p className="font-light text-sm md:text-base">Sitemap</p> */}
-          {/* </div> */}
 
           {/* Column 3: Location and Contact */}
           <div className="flex flex-col space-y-1 text-left md:text-right">
@@ -105,44 +98,3 @@ function Footer() {
 
 export default Footer;
 
-//  <h1
-//           className="
-//   text-[9rem] sm:text-[11rem] md:text-[15rem] lg:text-[19rem] xl:text-[22rem]
-//   font-extrabold leading-none
-//   transition-all duration-500 ease-in-out
-//   cursor-pointer
-// "
-//           style={{
-//             WebkitTextStroke: "2px white",
-//             WebkitTextFillColor: "transparent",
-//             textStroke: "2px white",
-//             color: "transparent",
-//             fontFamily: "sans-serif",
-//             letterSpacing: "-0.025em",
-//           }}
-//         >
-//           <span className="relative inline-block hover:animate-glow-gradient">
-//             Yash
-//           </span>
-//         </h1>
-
-// <h1
-//         className="
-//           text-[9rem] sm:text-[11rem] md:text-[15rem] lg:text-[19rem] xl:text-[22rem] /* Increased text sizes */
-//           font-extrabold leading-none border-[10px] border-orange-500
-//         "
-//         style={{
-//           // For Webkit browsers (Chrome, Safari, Edge)
-//           WebkitTextStroke: '1px white',
-//           WebkitTextFillColor: 'transparent',
-//           // For other browsers (less supported, but good practice)
-//           textStroke: '1px white',
-//           fill: 'transparent', // Standard SVG fill property, useful for browsers not supporting text-fill-color
-//           color: 'transparent', // Fallback for browsers, should be overridden by WebkitTextFillColor
-//           fontFamily: 'sans-serif', // Ensure a sans-serif font is used
-//           // Letter spacing might need fine-tuning to match the original
-//           letterSpacing: '-0.025em', // Adjust as needed for visual fidelity
-//         }}
-//       >
-//         Yash
-//       </h1>
