@@ -15,10 +15,15 @@ const Contact = () => {
         toast.error("Please Provide all fields");
         return;
       }
+      // const res = await axios.post(
+      // "http://localhost:8080/api/v1/portfolio/sendEmail",
+      // { name, email, msg }
       const res = await axios.post(
-        "http://localhost:8080/api/v1/portfolio/sendEmail",
+        "https://yash-bagde-portfolio.onrender.com/api/v1/portfolio/sendEmail",
         { name, email, msg }
       );
+
+      // );
       if (res.data.success) {
         toast.success(res.data.message);
       } else {
@@ -95,8 +100,8 @@ const Contact = () => {
           <p className="text-gray-400 mb-4 text-sm sm:text-base">
             You can also reach out to me directly through these channels:
           </p>
-           <div className="space-y-6">
-             <a
+          <div className="space-y-6">
+            <a
               href="https://github.com/DamonSalvanator"
               target="_blank"
               rel="noopener noreferrer"
@@ -117,8 +122,6 @@ const Contact = () => {
             <div className="flex items-center gap-3 bg-gray-800 px-4 py-4 rounded-lg">
               <Mail size={20} /> yashbagde2004july2004@gmail.com
             </div>
-
-           
           </div>
 
           <div className="pt-4 text-gray-400 text-xs sm:text-sm">
