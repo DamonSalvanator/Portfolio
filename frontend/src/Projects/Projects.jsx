@@ -1,0 +1,57 @@
+import React from "react";
+import ProjectCard from "./ProjectsCard.jsx";
+import pizza from "../images/pizza.png";
+import Trading from "../images/trading.png";
+import watch from "../images/watch.png";
+
+const Projects = () => {
+  const projectData = [
+    {
+      title: "PIZZA SHOP",
+      category: "FULL STACK",
+      description:
+        "Comprehensive church management system with member tracking, event scheduling, financial management and attendance monitoring.",
+      techs: ["React JS", "MongoDB", "REDUX", "+2"],
+
+      image: pizza,
+    },
+    {
+      category: "FULL STACK",
+      title: "WATCH E-COMMERCE SITE",
+      description:
+        "A modern web platform showcasing sustainable technology solutions, environmental services, and green innovation initiatives.",
+      techs: ["REACT JS", "EXPRESS", "MONGODB", "+2"],
+
+      image: watch, // demo image
+    },
+    {
+      category: "FULL STACK",
+      title: "TRADING SITE",
+      description:
+        "A comprehensive PHP SDK for integrating Safaricom's M-Pesa payment services, including STK Push, B2B, B2C, and more.",
+      techs: ["REACT JS", "REST API", "NODE", "+2"],
+
+      image: Trading,
+    },
+  ];
+
+  return (
+    <div
+      id="Projects"
+      className="bg-black w-full min-h-full pt-24 flex flex-col items-center justify-start py-12 px-4"
+    >
+      <h2 className="text-green-700 mt-18 font-bold mb-20 text-4xl text-center">
+        Projects
+      </h2>
+
+      {/* Responsive Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl">
+        {projectData.map((project, index) => (
+          <ProjectCard key={index} {...project} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
