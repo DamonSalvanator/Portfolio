@@ -10,25 +10,25 @@ const Projects = () => {
       title: "PIZZA SHOP",
       category: "FULL STACK",
       description:
-        "Comprehensive church management system with member tracking, event scheduling, financial management and attendance monitoring.",
+      " Full-stack Pizza Ordering Website with authorization and role-based access User & admin panels with product management, cart, and order handling functionality",
       techs: ["React JS", "MongoDB", "REDUX", "+2"],
-
+      
       image: pizza,
     },
     {
       category: "FULL STACK",
       title: "WATCH E-COMMERCE SITE",
       description:
-        "A modern web platform showcasing sustainable technology solutions, environmental services, and green innovation initiatives.",
+      " E-commerce platform with authentication, authorization, and role-based accessUser & admin panels with product management (add, update, delete) and cart functionality",
       techs: ["REACT JS", "EXPRESS", "MONGODB", "+2"],
-
+      
       image: watch, // demo image
     },
     {
       category: "FULL STACK",
       title: "TRADING SITE",
       description:
-        "A comprehensive PHP SDK for integrating Safaricom's M-Pesa payment services, including STK Push, B2B, B2C, and more.",
+      " Designed and developed a Trading Platform with complete frontend, backend, and analytics dashboard Authorization ensuring role-based access for admins and traders",
       techs: ["REACT JS", "REST API", "NODE", "+2"],
 
       image: Trading,
