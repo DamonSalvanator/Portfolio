@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname,"./frontend/dist")))
 app.use('/api/v1/portfolio',require("./Routes/Routes"))
 
 
-app.all('*splat',(req,res)=>{
+app.all('*',(req,res)=>{
     res.sendFile(path.join(__dirname,"./frontend/dist/index.html"));
 })
 
