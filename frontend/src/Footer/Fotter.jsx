@@ -54,7 +54,7 @@ function Footer() {
           <div className="flex flex-col space-y-1 text-left md:text-right">
             <p className="font-light text-sm md:text-base">India ,MP</p>
             <p className="font-light text-sm md:text-base">
-              yashbagde2004july2004@gmail.com
+              yashbagde2004july@gmail.com
             </p>
             <div className="flex flex-row gap-4 p-6 text-lg hover:text-grey-800">
               <a href="https://www.linkedin.com/in/yash-bagde-182b14358/">

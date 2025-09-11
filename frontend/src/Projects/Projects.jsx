@@ -17,16 +17,16 @@ const Projects = () => {
     },
     {
       category: "FULL STACK",
-      title: "WATCH E-COMMERCE SITE",
+      title: "E-COMMERCE WATCH WEBSITE",
       description:
       " E-commerce platform with authentication, authorization, and role-based accessUser & admin panels with product management (add, update, delete) and cart functionality",
       techs: ["REACT JS", "EXPRESS", "MONGODB", "+2"],
       
-      image: watch, // demo image
+      image: watch, 
     },
     {
       category: "FULL STACK",
-      title: "TRADING SITE",
+      title: "STOCK BROKERAGE WEBSITE",
       description:
       " Designed and developed a Trading Platform with complete frontend, backend, and analytics dashboard Authorization ensuring role-based access for admins and traders",
       techs: ["REACT JS", "REST API", "NODE", "+2"],

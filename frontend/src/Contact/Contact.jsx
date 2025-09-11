@@ -120,7 +120,7 @@ const Contact = () => {
             </a>
 
             <div className="flex items-center gap-3 bg-gray-800 px-4 py-4 rounded-lg">
-              <Mail size={20} /> yashbagde2004july2004@gmail.com
+              <Mail size={20} /> yashbagde2004july@gmail.com
             </div>
           </div>
 
