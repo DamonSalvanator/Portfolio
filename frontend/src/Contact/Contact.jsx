@@ -15,15 +15,15 @@ const Contact = () => {
         toast.error("Please Provide all fields");
         return;
       }
-      // const res = await axios.post(
-      // "http://localhost:8080/api/v1/portfolio/sendEmail",
-      // { name, email, msg }
       const res = await axios.post(
-        "https://yash-bagde-portfolio.onrender.com/api/v1/portfolio/sendEmail",
-        { name, email, msg }
-      );
-
+      "http://localhost:8080/api/v1/portfolio/sendEmail",
+      { name, email, msg }
+      // const res = await axios.post(
+      //   "https://yash-bagde-portfolio.onrender.com/api/v1/portfolio/sendEmail",
+      //   { name, email, msg }
       // );
+
+      );
       if (res.data.success) {
         toast.success(res.data.message);
       } else {
